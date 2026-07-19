@@ -24,7 +24,7 @@ copy_command=${UNIPICKER_COPY_COMMAND:-${os_copy_command}}
 usage () {
   echo "Select unicode character by description"
   echo ""
-  echo "Usage: unipicker [--command cmd] [--copy-command cmd ] [--copy] [--list]"
+  echo "Usage: unipicker [--command cmd] [--copy-command cmd ] [--copy] [--list] [emoji_name]"
   echo ""
   echo "Arguments:"
   echo "  --command       Overrides default select command"
